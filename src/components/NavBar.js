@@ -11,9 +11,8 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
+  Container,
 } from 'reactstrap';
-import ContactPage from './content/ContactPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 
@@ -47,7 +46,7 @@ class NavBar extends Component {
   }
   render() {
     return (
-      <div className='container'>
+      <Container>
         <Navbar
           expand='md'
           className='navbar navbar-expand-lg navbar-light mt-4 mb-0navbar navbar-expand-lg navbar-light mt-4 mb-0'>
@@ -67,12 +66,10 @@ class NavBar extends Component {
                 <NavLink href='/'> Home </NavLink>
               </NavItem>
               <NavItem>
-              <NavLink href = '/about' >
-            About 
-            </NavLink>
+                <NavLink href='/about'>About</NavLink>
               </NavItem>
               <NavItem>
-              <NavLink href='/contact'>Contact </NavLink>
+                <NavLink href='/contact'>Contact </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -86,8 +83,7 @@ class NavBar extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-        
-      </div>
+      </Container>
     );
   }
 }
