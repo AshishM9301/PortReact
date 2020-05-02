@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a6bc0a41a14f4ee8d35c8d50927a84a",
+    "revision": "572df446a1b085ef19e6d4d2d3e01145",
     "url": "/PortReact/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortReact/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "3d2d20b9810581616173",
+    "revision": "8ecb316b3c107886a465",
     "url": "/PortReact/static/css/main.34d41ef2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortReact/static/js/2.73026ab7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d2d20b9810581616173",
-    "url": "/PortReact/static/js/main.16f6cde4.chunk.js"
+    "revision": "8ecb316b3c107886a465",
+    "url": "/PortReact/static/js/main.8b03e328.chunk.js"
   },
   {
     "revision": "fa2d6f1159f7a932991d",
