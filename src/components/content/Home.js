@@ -10,7 +10,7 @@ import rdux from '../../images/redux-logo.png';
 import node from '../../images/nodejs-logo.png';
 import mern from '../../images/mearn-stack-logo.png';
 import wordpress from '../../images/wordpress-logo.png';
-import icice from '../../images/icicie.JPG';
+import icice from '../../images/icicie.jpg';
 
 class Home extends Component {
   render() {
@@ -136,9 +136,16 @@ class Home extends Component {
               </Row>
             </div>
             <div>
-              <Col md='3' className='shadow p-5'>
-                <img src={icice} className='d-block mx-auto p-1' />
-                <h1 className='mx-auto d-block text-center'>First Project</h1>
+              <Col md='4' className='shadow p-5'>
+                <Row>
+                  <img
+                    src={icice}
+                    className='d-block mx-auto p-1 img-fluid project-img'
+                  />
+                </Row>
+                <Row className='mt-2'>
+                  <h1 className='mx-auto d-block text-center'>First Project</h1>
+                </Row>
               </Col>
             </div>
           </Container>
