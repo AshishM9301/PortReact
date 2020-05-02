@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Button, Col } from 'reactstrap';
-import logo from '../../logo.svg';
+import logo from '../../images/logo.png';
 import html from '../../images/html-logo.png';
 import css from '../../images/css-logo.png';
 import js from '../../images/js-logo.png';
@@ -10,6 +10,7 @@ import rdux from '../../images/redux-logo.png';
 import node from '../../images/nodejs-logo.png';
 import mern from '../../images/mearn-stack-logo.png';
 import wordpress from '../../images/wordpress-logo.png';
+import icice from '../../images/icicie.JPG';
 
 class Home extends Component {
   render() {
@@ -120,19 +121,25 @@ class Home extends Component {
         </div>
         <section>
           <Container>
-            <div className='space-p-1 pb-0'>
+            <div className='space-p-1 pb-0 '>
               <Row>
                 <h5 className='bg-lgreen mx-auto py-2 px-4 rounded-lg-1 iblock'>
                   Projects
                 </h5>
               </Row>
-              <Row className=' mb-5'>
+              <Row className=' mb-5 '>
                 <h1
-                  className='text-center mx-auto iblock px-3 py-1 bg-custom'
+                  className='text-center mx-auto iblock px-3 py-1 bg-custom '
                   style={{ borderRadius: '5rem' }}>
                   Some Popular Projects
                 </h1>
               </Row>
+            </div>
+            <div>
+              <Col md='3' className='shadow p-5'>
+                <img src={icice} className='d-block mx-auto p-1' />
+                <h1 className='mx-auto d-block text-center'>First Project</h1>
+              </Col>
             </div>
           </Container>
         </section>

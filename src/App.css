@@ -21,6 +21,20 @@
   background-color: #b3ffcc;
 }
 
+.bg-logo {
+  background-color: #00aeef !important;
+}
+
+.bg-blue {
+  background-color: #004b66 !important;
+}
+
+.shadow-custom {
+  -webkit-box-shadow: inset 0px 0px 10px -5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset 0px 0px 10px -5px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 0px 10px -5px rgba(0, 0, 0, 1);
+}
+
 .space-p-1 {
   padding: 0rem;
 }

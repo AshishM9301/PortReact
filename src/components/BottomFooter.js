@@ -5,7 +5,7 @@ import { Footer } from 'react-mdl';
 class BottomFooter extends Component {
   render() {
     return (
-      <Footer className='bg-secondary pt-5'>
+      <Footer className='bg-blue pt-5'>
         <div className='container-fluid text-light text-center'>
           <Row>
             <Col md='4' lg='2' className='mx-auto'>
