@@ -21,7 +21,7 @@
   },
   "homepage": "http://asfafasa.github.io/PortReact/",
   "scripts": {
-    "predeploy": "npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
