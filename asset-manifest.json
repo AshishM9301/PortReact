@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/github.io/PortReact/static/css/main.8cc627fd.chunk.css",
-    "main.js": "/github.io/PortReact/static/js/main.6ee2c210.chunk.js",
-    "main.js.map": "/github.io/PortReact/static/js/main.6ee2c210.chunk.js.map",
+    "main.css": "/github.io/PortReact/static/css/main.84245994.chunk.css",
+    "main.js": "/github.io/PortReact/static/js/main.e13da788.chunk.js",
+    "main.js.map": "/github.io/PortReact/static/js/main.e13da788.chunk.js.map",
     "runtime-main.js": "/github.io/PortReact/static/js/runtime-main.dfc33c59.js",
     "runtime-main.js.map": "/github.io/PortReact/static/js/runtime-main.dfc33c59.js.map",
     "static/css/2.69121389.chunk.css": "/github.io/PortReact/static/css/2.69121389.chunk.css",
-    "static/js/2.8d7bafc0.chunk.js": "/github.io/PortReact/static/js/2.8d7bafc0.chunk.js",
-    "static/js/2.8d7bafc0.chunk.js.map": "/github.io/PortReact/static/js/2.8d7bafc0.chunk.js.map",
+    "static/js/2.592ecf0f.chunk.js": "/github.io/PortReact/static/js/2.592ecf0f.chunk.js",
+    "static/js/2.592ecf0f.chunk.js.map": "/github.io/PortReact/static/js/2.592ecf0f.chunk.js.map",
     "index.html": "/github.io/PortReact/index.html",
-    "precache-manifest.600c8cbc1cb979f207c02cfec8209c0b.js": "/github.io/PortReact/precache-manifest.600c8cbc1cb979f207c02cfec8209c0b.js",
+    "precache-manifest.dd19b4c204a56e92eb61ea42a84c3576.js": "/github.io/PortReact/precache-manifest.dd19b4c204a56e92eb61ea42a84c3576.js",
     "service-worker.js": "/github.io/PortReact/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/github.io/PortReact/static/css/2.69121389.chunk.css.map",
-    "static/css/main.8cc627fd.chunk.css.map": "/github.io/PortReact/static/css/main.8cc627fd.chunk.css.map",
-    "static/js/2.8d7bafc0.chunk.js.LICENSE.txt": "/github.io/PortReact/static/js/2.8d7bafc0.chunk.js.LICENSE.txt",
+    "static/css/main.84245994.chunk.css.map": "/github.io/PortReact/static/css/main.84245994.chunk.css.map",
+    "static/js/2.592ecf0f.chunk.js.LICENSE.txt": "/github.io/PortReact/static/js/2.592ecf0f.chunk.js.LICENSE.txt",
     "static/media/Basic_Ui_68-1.jpg": "/github.io/PortReact/static/media/Basic_Ui_68-1.bb0d2f11.jpg",
+    "static/media/icicie.JPG": "/github.io/PortReact/static/media/icicie.9d6f2238.JPG",
     "static/media/js-logo.png": "/github.io/PortReact/static/media/js-logo.5f52006c.png",
-    "static/media/logo.svg": "/github.io/PortReact/static/media/logo.bdcae154.svg",
+    "static/media/logo.png": "/github.io/PortReact/static/media/logo.f2443f1b.png",
     "static/media/mearn-stack-logo.png": "/github.io/PortReact/static/media/mearn-stack-logo.a5a384f1.png",
     "static/media/react.png": "/github.io/PortReact/static/media/react.abfd12ea.png",
     "static/media/redux-logo.png": "/github.io/PortReact/static/media/redux-logo.9b159698.png",
@@ -25,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.dfc33c59.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.8d7bafc0.chunk.js",
-    "static/css/main.8cc627fd.chunk.css",
-    "static/js/main.6ee2c210.chunk.js"
+    "static/js/2.592ecf0f.chunk.js",
+    "static/css/main.84245994.chunk.css",
+    "static/js/main.e13da788.chunk.js"
   ]
 }
