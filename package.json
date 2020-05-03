@@ -19,7 +19,7 @@
     "react-scripts": "3.4.1",
     "reactstrap": "^8.4.1"
   },
-  "homepage": "https://asfafasa.github.io/PortReact",
+  "homepage": "",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
