@@ -8,14 +8,44 @@
 
 .bg-custom {
   background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 10%,
-    rgba(255, 255, 255, 1) 17%,
-    rgba(226, 226, 226, 1) 65%,
-    rgba(224, 224, 224, 1) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 10%,
+      rgba(255, 255, 255, 1) 17%,
+      rgba(226, 226, 226, 1) 65%,
+      rgba(224, 224, 224, 1) 100%);
+}
+
+.text-no-decoration {
+  text-decoration: none !important;
+}
+
+
+a.bg-hover {
+  color: inherit;
+}
+
+
+.bg-hover {
+  color: white;
+  background-color: transparent;
+}
+
+.bg-hover:hover {
+  background-color: #f2f2f2 !important;
+  color: #262626 !important;
+}
+
+.bg-google {
+  background-color: #DB4437;
+}
+
+.bg-instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
 }
 
 .bg-midnight-gradient {
@@ -130,7 +160,7 @@
   margin: 5rem auto 0;
 }
 
-.circle-container > * {
+.circle-container>* {
   /* 4 */
   display: block;
   position: absolute;
@@ -141,42 +171,42 @@
   margin: -3em;
 }
 
-.circle-container > :nth-of-type(1) {
+.circle-container> :nth-of-type(1) {
   -webkit-transform: rotate(0deg) translate(10em) rotate(0deg);
   transform: rotate(0deg) translate(10em) rotate(0deg);
 }
 
-.circle-container > :nth-of-type(2) {
+.circle-container> :nth-of-type(2) {
   -webkit-transform: rotate(45deg) translate(10em) rotate(-45deg);
   transform: rotate(45deg) translate(10em) rotate(-45deg);
 }
 
-.circle-container > :nth-of-type(3) {
+.circle-container> :nth-of-type(3) {
   -webkit-transform: rotate(90deg) translate(10em) rotate(-90deg);
   transform: rotate(90deg) translate(10em) rotate(-90deg);
 }
 
-.circle-container > :nth-of-type(4) {
+.circle-container> :nth-of-type(4) {
   -webkit-transform: rotate(135deg) translate(10em) rotate(-135deg);
   transform: rotate(135deg) translate(10em) rotate(-135deg);
 }
 
-.circle-container > :nth-of-type(5) {
+.circle-container> :nth-of-type(5) {
   -webkit-transform: rotate(180deg) translate(10em) rotate(-180deg);
   transform: rotate(180deg) translate(10em) rotate(-180deg);
 }
 
-.circle-container > :nth-of-type(6) {
+.circle-container> :nth-of-type(6) {
   -webkit-transform: rotate(225deg) translate(10em) rotate(-225deg);
   transform: rotate(225deg) translate(10em) rotate(-225deg);
 }
 
-.circle-container > :nth-of-type(7) {
+.circle-container> :nth-of-type(7) {
   -webkit-transform: rotate(270deg) translate(10em) rotate(-270deg);
   transform: rotate(270deg) translate(10em) rotate(-270deg);
 }
 
-.circle-container > :nth-of-type(8) {
+.circle-container> :nth-of-type(8) {
   -webkit-transform: rotate(315deg) translate(10em) rotate(-315deg);
   transform: rotate(315deg) translate(10em) rotate(-315deg);
 }

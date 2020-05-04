@@ -12,6 +12,16 @@ import Home from './components/content/Home';
 import AboutPage from './components/content/AboutPage';
 import ContactPage from './components/content/ContactPage';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {
+  fab,
+  faInstagram,
+  faFacebook,
+  faGithub,
+  faGoogle,
+} from '@fortawesome/free-brands-svg-icons';
+library.add(fab, faInstagram, faFacebook, faGithub, faGoogle);
+
 class App extends Component {
   render() {
     return (

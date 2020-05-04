@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import { Footer } from 'react-mdl';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 class BottomFooter extends Component {
   render() {
@@ -11,12 +13,16 @@ class BottomFooter extends Component {
             <Col md='4' lg='2' className='mx-auto'>
               <h4>About</h4>
               <p className='mb-1'>
-                <a className='nav-link text-white-50' href='about.html'>
+                <a
+                  className='nav-link text-no-decoration text-white-50'
+                  href='about.html'>
                   About Me
                 </a>
               </p>
               <p>
-                <a className='nav-link text-white-50' href='vision.html'>
+                <a
+                  className='nav-link text-no-decoration text-white-50'
+                  href='vision.html'>
                   Vision
                 </a>
               </p>
@@ -24,28 +30,102 @@ class BottomFooter extends Component {
             <Col md='4' lg='2' className='mx-auto'>
               <h4>Projects</h4>
               <p className='mb-1'>
-                <a className='nav-link text-white-50' href='client.html'>
+                <a
+                  className='nav-link text-no-decoration text-white-50'
+                  href='client.html'>
                   Client
                 </a>
               </p>
               <p className='mb-1'>
-                <a className='nav-link text-white-50' href='templates.html'>
+                <a
+                  className='nav-link text-no-decoration text-white-50'
+                  href='templates.html'>
                   Templates
                 </a>
               </p>
               <p className='mb-1'>
-                <a className='nav-link text-white-50' href='wordpress.html'>
+                <a
+                  className='nav-link text-no-decoration text-white-50'
+                  href='wordpress.html'>
                   Wordpress
                 </a>
               </p>
               <p className='mb-1'>
-                <a className='nav-link text-white-50' href='react.html'>
+                <a
+                  className='nav-link text-no-decoration text-white-50'
+                  href='react.html'>
                   React
                 </a>
               </p>
             </Col>
             <Col md='4' lg='2' className='mx-auto'>
               <h4>Contact</h4>
+              <Row className='mx-auto'>
+                <Col>
+                  <Col className='ml-5'>
+                    <a
+                      target='_blank'
+                      href='https://www.facebook.com/endev.ashish'
+                      className=' text-no-decoration text-white-50'>
+                      <Row>
+                        <FontAwesomeIcon
+                          icon={['fab', 'facebook-square']}
+                          className='h4 m-2'
+                        />
+                        <p className='d-inline nav-link text-left'>
+                          /endev.ashish
+                        </p>
+                      </Row>
+                    </a>
+                  </Col>
+                  <Col className='ml-5'>
+                    <a
+                      target='_blank'
+                      className='text-no-decoration text-white-50'
+                      href='https://www.instagram.com/ashish13005/'>
+                      <Row>
+                        <FontAwesomeIcon
+                          icon={['fab', 'instagram']}
+                          className='h4 m-2'
+                        />
+                        <p className='d-inline nav-link text-left'>
+                          /ashish13005
+                        </p>
+                      </Row>
+                    </a>
+                  </Col>
+                  <Col className='ml-5'>
+                    <a
+                      target='_blank'
+                      className='text-no-decoration text-white-50'
+                      href='mailto:giftofgodashish@gmail.com?subject=Contact'>
+                      <Row>
+                        <FontAwesomeIcon
+                          icon={['fab', 'google']}
+                          className='h4 m-2'
+                        />
+                        <p className='d-inline nav-link text-left'>
+                          /giftofgodashish
+                        </p>
+                      </Row>
+                    </a>
+                  </Col>
+                  <Col className='ml-5'>
+                    <a
+                      target='_blank'
+                      className=' text-no-decoration text-white-50'
+                      href='https://github.com/asfafasa'>
+                      <Row>
+                        <FontAwesomeIcon
+                          icon={['fab', 'github']}
+                          className='h4 m-2'
+                        />
+                        <p className='d-inline nav-link text-left'>/asfafasa</p>
+                      </Row>
+                    </a>
+                  </Col>
+                </Col>
+              </Row>
             </Col>
             <Col md='4' lg='2' className='mx-auto'>
               <h4>Resources</h4>
