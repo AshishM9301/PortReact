@@ -90,10 +90,12 @@ class AboutPage extends Component {
                         className=' iline align-self-center pl-3 col'
                         style={{ flexWrap: 'wrap' }}>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Adipisci dolor commodi molestias error totam
-                          minima sequi nemo vel ipsa.
-                          <a className='nav-link p-0 d-inline' href='/'>
+                          Mongoose - M , Express - E , React -R , Node - N . I
+                          learned MERN stack with redux support and created
+                          login pages, register pages and logout pages
+                          <a
+                            className='nav-link p-1 d-inline'
+                            href='https://www.geeksforgeeks.org/mern-stack/'>
                             MERN Stack
                           </a>
                           Sites
@@ -115,10 +117,12 @@ class AboutPage extends Component {
                         className=' iline align-self-center pl-3 col'
                         style={{ flexWrap: 'wrap' }}>
                         <p>
-                          Lorem ipsum, dolor sit amet consectetur adipisicing
-                          elit. Iure ducimus repellendus amet, possimus quia
-                          atque corporis deleniti.
-                          <a className='nav-link p-0 d-inline' href='/'>
+                          I am Basicly Full stack developer , i have started
+                          coding with Front End which incude HTML, so almost all
+                          my project contains HTMl
+                          <a
+                            className='nav-link p-1 d-inline'
+                            href='https://html.com/'>
                             HTML
                           </a>
                           Sites
@@ -143,8 +147,10 @@ class AboutPage extends Component {
                           Created many projects using flex &amp; grid System and
                           used Bootstrap &amp; TailindCss also use Bootstrap for
                           creating
-                          <a className='nav-link p-0 d-inline' href='/'>
-                            Wordpress
+                          <a
+                            className='nav-link p-1 d-inline'
+                            href='https://www.w3.org/Style/CSS/'>
+                            CSS
                           </a>
                           Sites
                         </p>
@@ -165,12 +171,11 @@ class AboutPage extends Component {
                         className=' iline align-self-center pl-3'
                         style={{ flexWrap: 'wrap' }}>
                         <p>
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Distinctio, fugit repellendus sunt voluptas
-                          omnis totam quasi dolores harum reiciendis enim vero
-                          aliquam laboriosam rerum dolorem animi sed provident
-                          vel perspiciatis?
-                          <a className='nav-link p-0 d-inline' href='/'>
+                          Vanila JavaScript is not my sepaciality but i can read
+                          all js files and manipulte it according to demand.
+                          <a
+                            className='nav-link p-1 d-inline'
+                            href='https://www.javascript.com/'>
                             JavaScript
                           </a>
                           Sites
@@ -192,12 +197,14 @@ class AboutPage extends Component {
                         className=' iline align-self-center pl-3'
                         style={{ flexWrap: 'wrap' }}>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Qui aut perspiciatis beatae eligendi sapiente
-                          eum nobis nemo corrupti non eos eaque, quas laboriosam
-                          voluptatibus veritatis. Libero ipsum voluptatem
-                          commodi beatae!
-                          <a className='nav-link p-0 d-inline' href='/'>
+                          I started Web Development with Wordpress Creating new
+                          sites, made Some projects for personal use which is
+                          not currently active. I learned i can hard code all
+                          stuff in wordpress later and learning to customise
+                          Wordpress today also
+                          <a
+                            className='nav-link p-1 d-inline'
+                            href='https://wordpress.org/'>
                             Wordpress
                           </a>
                           Sites
@@ -219,12 +226,12 @@ class AboutPage extends Component {
                         className=' iline align-self-center pl-3'
                         style={{ flexWrap: 'wrap' }}>
                         <p>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Voluptate exercitationem laborum totam aliquam,
-                          modi voluptatum aperiam suscipit fugit sed aliquid
-                          odio ipsa autem optio asperiores distinctio molestias
-                          cumque, nulla eaque.
-                          <a className='nav-link p-0 d-inline' href='/'>
+                          When I first Learned React i was facinated by its
+                          speed . React helped me to write code and made Website
+                          world can be customised to anything
+                          <a
+                            className='nav-link p-1 d-inline'
+                            href='https://reactjs.org/'>
                             React
                           </a>
                           Sites
@@ -246,11 +253,12 @@ class AboutPage extends Component {
                         className=' iline align-self-center pl-3'
                         style={{ flexWrap: 'wrap' }}>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Dolorem ad quaerat quas eveniet tempora harum,
-                          id illum laboriosam in et reiciendis nulla similique
-                          dolorum alias vel aperiam? Earum, minus quaerat?
-                          <a className='nav-link p-0 d-inline' href='/'>
+                          Node is essential for React ,MERN etc. as its manages
+                          all the pakages. I learned its a javascript that can
+                          be used to create backend sever codes
+                          <a
+                            className='nav-link p-1 d-inline'
+                            href='https://nodejs.org/'>
                             Node
                           </a>
                           Sites
@@ -272,12 +280,13 @@ class AboutPage extends Component {
                         className=' iline align-self-center pl-3'
                         style={{ flexWrap: 'wrap' }}>
                         <p>
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Nesciunt porro eaque fugiat provident nemo eum.
-                          Veniam natus ullam soluta aliquam, et hic nulla
-                          voluptatem culpa nostrum eligendi modi consectetur
-                          ipsa?
-                          <a className='nav-link p-0 d-inline' href='/'>
+                          I Created all MERN projects with react-redux as it
+                          helps to control backend and frontend with easy . I
+                          dont know exact redux to use in all platform , know
+                          only to use on react
+                          <a
+                            className='nav-link p-1 d-inline'
+                            href='https://react-redux.js.org/'>
                             React Redux
                           </a>
                           Sites
@@ -299,11 +308,12 @@ class AboutPage extends Component {
                         className=' iline align-self-center pl-3'
                         style={{ flexWrap: 'wrap' }}>
                         <p>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing
-                          elit. Esse nobis maxime dolorum magnam unde laudantium
-                          vel eligendi quas saepe animi quis consequatur libero,
-                          culpa repellat debitis dolor nemo nesciunt neque.
-                          <a className='nav-link p-0 d-inline' href='/'>
+                          Its used to create WWebsite server side codes as with
+                          node it produces ton of codes which can be lessned
+                          with use of Express
+                          <a
+                            className='nav-link p-1 d-inline'
+                            href='https://www.express.com/'>
                             Express Node
                           </a>
                           Sites

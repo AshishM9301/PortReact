@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Button, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
 import html from '../../images/html-logo.png';
 import css from '../../images/css-logo.png';
@@ -27,16 +28,18 @@ class Home extends Component {
                         Welcome to Endev
                       </h1>
                       <h4>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Repellat labore, nobis soluta incidunt debitis eveniet
-                        ducimus?
+                        Here we develop ideas into reality.
+                        <br /> We will collaborate with yor ideas and make the
+                        best out of it.
                       </h4>
                       <p>Here you can create your desirred Website</p>
                       <Col sm='12'>
                         <Row>
-                          <Button size='lg' className='py-3 px-4'>
-                            Recent Projects
-                          </Button>
+                          <a href='#projects'>
+                            <Button size='lg' className='py-3 px-4'>
+                              Recent Projects
+                            </Button>
+                          </a>
                         </Row>
                       </Col>
                     </div>
@@ -123,7 +126,9 @@ class Home extends Component {
           <Container>
             <div className='space-p-1 pb-0 '>
               <Row>
-                <h5 className='bg-lgreen mx-auto py-2 px-4 rounded-lg-1 iblock'>
+                <h5
+                  id='projects'
+                  className='bg-lgreen mx-auto py-2 px-4 rounded-lg-1 iblock'>
                   Projects
                 </h5>
               </Row>
@@ -136,16 +141,23 @@ class Home extends Component {
               </Row>
             </div>
             <div>
-              <Col md='4' className='shadow p-5'>
-                <Row>
-                  <img
-                    src={icice}
-                    className='d-block mx-auto p-1 img-fluid project-img'
-                  />
-                </Row>
-                <Row className='mt-2'>
-                  <h1 className='mx-auto d-block text-center'>First Project</h1>
-                </Row>
+              <Col md='4' className='shadow rounded-lg p-5'>
+                <a
+                  href='http://event.kiit.ac.in/icice/'
+                  target='_blanck'
+                  className='text-dark nav-link'>
+                  <Row>
+                    <img
+                      src={icice}
+                      className='d-block mx-auto p-1 img-fluid project-img'
+                    />
+                  </Row>
+                  <Row className='mt-3'>
+                    <h3 className='mx-auto d-block text-center '>
+                      ICICE-KIIT Conference
+                    </h3>
+                  </Row>
+                </a>
               </Col>
             </div>
           </Container>

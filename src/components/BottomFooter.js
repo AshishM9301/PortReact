@@ -15,14 +15,14 @@ class BottomFooter extends Component {
               <p className='mb-1'>
                 <a
                   className='nav-link text-no-decoration text-white-50'
-                  href='about.html'>
+                  href='/about'>
                   About Me
                 </a>
               </p>
               <p>
                 <a
                   className='nav-link text-no-decoration text-white-50'
-                  href='vision.html'>
+                  href='/vision'>
                   Vision
                 </a>
               </p>
@@ -32,31 +32,32 @@ class BottomFooter extends Component {
               <p className='mb-1'>
                 <a
                   className='nav-link text-no-decoration text-white-50'
-                  href='client.html'>
+                  href='/client'>
                   Client
                 </a>
               </p>
               <p className='mb-1'>
                 <a
                   className='nav-link text-no-decoration text-white-50'
-                  href='templates.html'>
+                  href='/template'>
                   Templates
                 </a>
               </p>
-              <p className='mb-1'>
+              {/*   <p className='mb-1'>
                 <a
                   className='nav-link text-no-decoration text-white-50'
-                  href='wordpress.html'>
+                  href='/wordpress'>
                   Wordpress
                 </a>
               </p>
               <p className='mb-1'>
                 <a
                   className='nav-link text-no-decoration text-white-50'
-                  href='react.html'>
+                  href='react'>
                   React
                 </a>
               </p>
+              */}
             </Col>
             <Col md='4' lg='2' className='mx-auto'>
               <h4>Contact</h4>
@@ -129,6 +130,27 @@ class BottomFooter extends Component {
             </Col>
             <Col md='4' lg='2' className='mx-auto'>
               <h4>Resources</h4>
+              <p className='mb-1'>
+                <a
+                  className='nav-link text-no-decoration text-white-50'
+                  href='/template'>
+                  Help
+                </a>
+              </p>
+              <p className='mb-1'>
+                <a
+                  className='nav-link text-no-decoration text-white-50'
+                  href='/template'>
+                  Terms
+                </a>
+              </p>
+              <p className='mb-1'>
+                <a
+                  className='nav-link text-no-decoration text-white-50'
+                  href='/template'>
+                  Privacy
+                </a>
+              </p>
             </Col>
           </Row>
           <Row className=' mt-4 ml-1'>

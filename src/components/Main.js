@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './content/Home';
 import AboutPage from './content/AboutPage';
 import ContactPage from './content/ContactPage';
+import Vision from './content/Vision';
 
 const Main = () => (
   <Switch>
@@ -11,6 +12,7 @@ const Main = () => (
     <Route path='/about' component={AboutPage} />
 
     <Route path='/contact' component={ContactPage} />
+    <Route path='/vision' component={Vision} />
   </Switch>
 );
 
