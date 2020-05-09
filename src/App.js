@@ -28,13 +28,7 @@ class App extends Component {
       <Router>
         <div className='App'>
           <NavBar />
-          <Switch>
-            <Route exact path='/' component={Home} />
-
-            <Route exact path='/about' component={AboutPage} />
-
-            <Route exact path='/contact' component={ContactPage} />
-          </Switch>
+          <Main />
           <BottomFooter />
         </div>
       </Router>

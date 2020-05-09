@@ -12,6 +12,7 @@ import node from '../../images/nodejs-logo.png';
 import mern from '../../images/mearn-stack-logo.png';
 import wordpress from '../../images/wordpress-logo.png';
 import icice from '../../images/icicie.jpg';
+import speed from '../../images/speed.png';
 
 class Home extends Component {
   render() {
@@ -27,6 +28,7 @@ class Home extends Component {
                       <h1 className='display-3-custom font-weight-normal'>
                         Welcome to Endev
                       </h1>
+
                       <h4>
                         Here we develop ideas into reality.
                         <br /> We will collaborate with yor ideas and make the
@@ -52,7 +54,12 @@ class Home extends Component {
             </Row>
           </Container>
         </header>
-
+        <Container className='border-dotted-colored my-5 p-2'>
+          <h3 className='text-center m-2' style={{ color: '#242423' }}>
+            Pingdom
+          </h3>
+          <img src={speed} className='img-fluid d-block mx-auto' />
+        </Container>
         <div>
           <Container className='space-p-1 pb-0'>
             <Row className='mb-5'>
@@ -123,7 +130,7 @@ class Home extends Component {
           </Container>
         </div>
         <section>
-          <Container>
+          <Container className='mt-5'>
             <div className='space-p-1 pb-0 '>
               <Row>
                 <h5
@@ -141,7 +148,7 @@ class Home extends Component {
               </Row>
             </div>
             <div>
-              <Col md='4' className='shadow rounded-lg p-5'>
+              <Col md='4' className='shadow rounded-lg p-5 mx-auto'>
                 <a
                   href='http://event.kiit.ac.in/icice/'
                   target='_blanck'
@@ -162,7 +169,7 @@ class Home extends Component {
             </div>
           </Container>
         </section>
-        <section>
+        <section className='mb-5'>
           <div className='container space-p-1 pb-0'>
             <div className='row'>
               <h4 className='bg-lgreen mx-auto py-2 px-4 rounded-lg-1 iblock'>
@@ -174,6 +181,27 @@ class Home extends Component {
                 Some People that Know me
               </h1>
             </div>
+            <Row>
+              <Col md='4' sm='6' className='mx-auto'>
+                <div className='py-4 shadow rounded-lg'>
+                  <a
+                    className='nav-link text-muted text-center '
+                    style={{
+                      position: 'relative',
+                    }}
+                    href='https://mechanical.kiit.ac.in/profiles/deepak-singhal/'>
+                    <img
+                      src='https://mechanical.kiit.ac.in/wp-content/uploads/2020/01/Deepak-Singhal.jpg'
+                      className='img-fluid rounded-circle shadow'
+                    />
+                    <div className='mt-3'>
+                      <h3 className='text-center'>Deepak Singal</h3>
+                      <p className='text-center'>KIIT Prof.</p>
+                    </div>
+                  </a>
+                </div>
+              </Col>
+            </Row>
           </div>
         </section>
       </div>

@@ -3,6 +3,7 @@ import { Row, Col } from 'reactstrap';
 import { Footer } from 'react-mdl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 class BottomFooter extends Component {
   render() {
@@ -10,63 +11,63 @@ class BottomFooter extends Component {
       <Footer className='bg-blue pt-5'>
         <div className='container-fluid text-light text-center'>
           <Row>
-            <Col md='4' lg='2' className='mx-auto'>
+            <Col md='4' sm='6' lg='2' className='mx-auto'>
               <h4>About</h4>
               <p className='mb-1'>
-                <a
+                <Link
                   className='nav-link text-no-decoration text-white-50'
-                  href='/about'>
+                  to='/about'>
                   About Me
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   className='nav-link text-no-decoration text-white-50'
-                  href='/vision'>
+                  to='/vision'>
                   Vision
-                </a>
+                </Link>
               </p>
             </Col>
-            <Col md='4' lg='2' className='mx-auto'>
+            <Col md='4' sm='6' lg='2' className='mx-auto'>
               <h4>Projects</h4>
               <p className='mb-1'>
-                <a
+                <Link
                   className='nav-link text-no-decoration text-white-50'
-                  href='/client'>
+                  to='/client'>
                   Client
-                </a>
+                </Link>
               </p>
               <p className='mb-1'>
-                <a
+                <Link
                   className='nav-link text-no-decoration text-white-50'
-                  href='/template'>
+                  to='/template'>
                   Templates
-                </a>
+                </Link>
               </p>
               {/*   <p className='mb-1'>
-                <a
+                <Link
                   className='nav-link text-no-decoration text-white-50'
-                  href='/wordpress'>
+                  to='/wordpress'>
                   Wordpress
-                </a>
+                </Link>
               </p>
               <p className='mb-1'>
-                <a
+                <Link
                   className='nav-link text-no-decoration text-white-50'
-                  href='react'>
+                  to='react'>
                   React
-                </a>
+                </Link>
               </p>
               */}
             </Col>
-            <Col md='4' lg='2' className='mx-auto'>
+            <Col md='4' sm='6' lg='2' className='mx-auto'>
               <h4>Contact</h4>
               <Row className='mx-auto'>
                 <Col>
                   <Col className='ml-5'>
-                    <a
+                    <Link
                       target='_blank'
-                      href='https://www.facebook.com/endev.ashish'
+                      to='https://www.facebook.com/endev.ashish'
                       className=' text-no-decoration text-white-50'>
                       <Row>
                         <FontAwesomeIcon
@@ -77,13 +78,13 @@ class BottomFooter extends Component {
                           /endev.ashish
                         </p>
                       </Row>
-                    </a>
+                    </Link>
                   </Col>
                   <Col className='ml-5'>
-                    <a
+                    <Link
                       target='_blank'
                       className='text-no-decoration text-white-50'
-                      href='https://www.instagram.com/ashish13005/'>
+                      to='https://www.instagram.com/ashish13005/'>
                       <Row>
                         <FontAwesomeIcon
                           icon={['fab', 'instagram']}
@@ -93,13 +94,13 @@ class BottomFooter extends Component {
                           /ashish13005
                         </p>
                       </Row>
-                    </a>
+                    </Link>
                   </Col>
                   <Col className='ml-5'>
-                    <a
+                    <Link
                       target='_blank'
                       className='text-no-decoration text-white-50'
-                      href='mailto:giftofgodashish@gmail.com?subject=Contact'>
+                      to='mailto:giftofgodashish@gmail.com?subject=Contact'>
                       <Row>
                         <FontAwesomeIcon
                           icon={['fab', 'google']}
@@ -109,13 +110,13 @@ class BottomFooter extends Component {
                           /giftofgodashish
                         </p>
                       </Row>
-                    </a>
+                    </Link>
                   </Col>
                   <Col className='ml-5'>
-                    <a
+                    <Link
                       target='_blank'
                       className=' text-no-decoration text-white-50'
-                      href='https://github.com/asfafasa'>
+                      to='https://github.com/asfafasa'>
                       <Row>
                         <FontAwesomeIcon
                           icon={['fab', 'github']}
@@ -123,33 +124,33 @@ class BottomFooter extends Component {
                         />
                         <p className='d-inline nav-link text-left'>/asfafasa</p>
                       </Row>
-                    </a>
+                    </Link>
                   </Col>
                 </Col>
               </Row>
             </Col>
-            <Col md='4' lg='2' className='mx-auto'>
+            <Col md='4' sm='6' lg='2' className='mx-auto'>
               <h4>Resources</h4>
               <p className='mb-1'>
-                <a
+                <Link
                   className='nav-link text-no-decoration text-white-50'
-                  href='/template'>
+                  to='/template'>
                   Help
-                </a>
+                </Link>
               </p>
               <p className='mb-1'>
-                <a
+                <Link
                   className='nav-link text-no-decoration text-white-50'
-                  href='/template'>
+                  to='/template'>
                   Terms
-                </a>
+                </Link>
               </p>
               <p className='mb-1'>
-                <a
+                <Link
                   className='nav-link text-no-decoration text-white-50'
-                  href='/template'>
+                  to='/template'>
                   Privacy
-                </a>
+                </Link>
               </p>
             </Col>
           </Row>

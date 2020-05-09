@@ -13,8 +13,10 @@ import {
   DropdownItem,
   Container,
 } from 'reactstrap';
+import AboutPage from './content/AboutPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 class NavBar extends Component {
   state = {
@@ -63,13 +65,19 @@ class NavBar extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className='navbar-nav mx-auto font-weight-bolder' navbar>
               <NavItem>
-                <NavLink href='/'> Home </NavLink>
+                <Link className='nav-link' to='/'>
+                  Home
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink href='/about'>About</NavLink>
+                <Link className='nav-link' to='/about'>
+                  About
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink href='/contact'>Contact </NavLink>
+                <Link className='nav-link' to='/contact'>
+                  Contact
+                </Link>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>

@@ -16,6 +16,13 @@
       rgba(224, 224, 224, 1) 100%);
 }
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .text-no-decoration {
   text-decoration: none !important;
 }
@@ -29,6 +36,13 @@ a.bg-hover {
 .bg-hover {
   color: white;
   background-color: transparent;
+}
+
+.border-dotted-colored {
+  border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+  border: 3px dashed #4ecdc4;
 }
 
 .bg-hover:hover {
