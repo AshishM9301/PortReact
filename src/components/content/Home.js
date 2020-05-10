@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Button, Col } from 'reactstrap';
-import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
 import html from '../../images/html-logo.png';
 import css from '../../images/css-logo.png';
@@ -58,7 +57,7 @@ class Home extends Component {
           <h3 className='text-center m-2' style={{ color: '#242423' }}>
             Pingdom
           </h3>
-          <img src={speed} className='img-fluid d-block mx-auto' />
+          <img alt='' src={speed} className='img-fluid d-block mx-auto' />
         </Container>
         <div>
           <Container className='space-p-1 pb-0'>
@@ -151,12 +150,14 @@ class Home extends Component {
               <Col md='4' className='shadow rounded-lg p-5 mx-auto'>
                 <a
                   href='http://event.kiit.ac.in/icice/'
-                  target='_blanck'
+                  target='_blank'
+                  rel='noopener noreferrer'
                   className='text-dark nav-link'>
                   <Row>
                     <img
                       src={icice}
                       className='d-block mx-auto p-1 img-fluid project-img'
+                      alt='icice'
                     />
                   </Row>
                   <Row className='mt-3'>
@@ -189,10 +190,13 @@ class Home extends Component {
                     style={{
                       position: 'relative',
                     }}
-                    href='https://mechanical.kiit.ac.in/profiles/deepak-singhal/'>
+                    href='https://mechanical.kiit.ac.in/profiles/deepak-singhal/'
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     <img
                       src='https://mechanical.kiit.ac.in/wp-content/uploads/2020/01/Deepak-Singhal.jpg'
                       className='img-fluid rounded-circle shadow'
+                      alt='Deepak Singhal'
                     />
                     <div className='mt-3'>
                       <h3 className='text-center'>Deepak Singal</h3>

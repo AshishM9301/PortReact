@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import { Footer } from 'react-mdl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 class BottomFooter extends Component {

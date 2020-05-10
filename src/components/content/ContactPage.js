@@ -4,7 +4,6 @@ import googlef from '../../images/google-form-logo.png';
 
 import { Container, Col, Row } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 class ContactPage extends Component {
   render() {
@@ -31,8 +30,8 @@ class ContactPage extends Component {
             </Col>
             <Col md='6' className='ml-0'>
               <img
-                src={logo}
                 alt=''
+                src={logo}
                 className='img-fliud d-block'
                 style={{ width: '500px' }}
               />
@@ -63,6 +62,7 @@ class ContactPage extends Component {
               <div className='mx-auto'>
                 <a
                   target='_blank'
+                  rel='noopener noreferrer'
                   href='https://www.facebook.com/endev.ashish'
                   className=' bg-hover'>
                   <FontAwesomeIcon
@@ -79,6 +79,7 @@ class ContactPage extends Component {
               <div className='mx-auto'>
                 <a
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='bg-hover'
                   href='https://www.instagram.com/ashish13005/'>
                   <FontAwesomeIcon
@@ -94,6 +95,7 @@ class ContactPage extends Component {
               <div className='mx-auto'>
                 <a
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='bg-hover'
                   href='mailto:giftofgodashish@gmail.com?subject=Contact'>
                   <FontAwesomeIcon
@@ -109,6 +111,7 @@ class ContactPage extends Component {
               <div className='mx-auto'>
                 <a
                   target='_blank'
+                  rel='noopener noreferrer'
                   className=' bg-hover'
                   href='https://github.com/asfafasa'>
                   <FontAwesomeIcon
@@ -145,8 +148,10 @@ class ContactPage extends Component {
                 <a
                   className='text-white bg-hover'
                   href='https://forms.gle/JPtWZojqYRPyw4U2A'
-                  target='_blank'>
+                  target='_blank'
+                  rel='noopener noreferrer'>
                   <img
+                    alt=''
                     src={googlef}
                     className='lang-img-m img-fluid d-block mx-auto'
                   />
@@ -157,6 +162,7 @@ class ContactPage extends Component {
               <div className='mx-auto'>
                 <a
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='text-white text-no-decoration'
                   href='https://forms.gle/JPtWZojqYRPyw4U2A'>
                   <h1

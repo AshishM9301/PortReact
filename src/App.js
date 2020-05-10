@@ -6,11 +6,8 @@ import NavBar from './components/NavBar';
 import Main from './components/Main';
 
 import BottomFooter from './components/BottomFooter';
-import { Content } from 'react-mdl';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/content/Home';
-import AboutPage from './components/content/AboutPage';
-import ContactPage from './components/content/ContactPage';
+
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {

@@ -7,7 +7,7 @@ import Vision from './content/Vision';
 
 const Main = () => (
   <Switch>
-    <Route exact path='/' exact component={Home} />
+    <Route exact path='/' component={Home} />
 
     <Route path='/about' component={AboutPage} />
 
